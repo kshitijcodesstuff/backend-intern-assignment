@@ -12,7 +12,7 @@ This project is a backend system developed as part of an assignment for **Kirana
 ---
 
 ## **Project Structure**
-```plaintext
+
 backend-intern-assignment/
 ├── main.go                      # Entry point for the application
 ├── StoreMaster.csv              # CSV file containing store data
