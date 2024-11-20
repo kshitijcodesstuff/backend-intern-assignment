@@ -7,7 +7,7 @@
 ---
 
 ## **Overview**
-This project is a backend system developed as part of an assignment for **Kirana**. The system handles job submissions, processes store visit data, calculates image perimeters, validates store IDs from a master list, and provides APIs for job management. It is written in **Go**, uses in-memory storage for simplicity, and is containerized using **Docker**.
+This project is a backend system developed to handle job submissions, processes store visit data, calculates image perimeters, validates store IDs from a master list, and provides APIs for job management. It is written in **Go**, uses in-memory storage for simplicity, and is containerized using **Docker**.
 
 ---
 
