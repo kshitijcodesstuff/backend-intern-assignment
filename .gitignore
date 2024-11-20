@@ -1,0 +1,38 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+
+# Ignore build artifacts
+bin/
+build/
+
+# Ignore Go-specific files
+*.test
+*.log
+*.prof
+
+# Ignore Docker-related files (if needed)
+.dockerignore
+docker-compose.override.yml
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+*.DS_Store
+Thumbs.db
+
+# Ignore dependency directories (e.g., Go modules cache)
+vendor/
+
+# Ignore Go cache files
+/go/pkg/
+/go/bin/
+/go/src/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
