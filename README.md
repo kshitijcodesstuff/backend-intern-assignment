@@ -171,11 +171,11 @@ backend-intern-assignment/
 ### **Run with Docker**
 1. Build the Docker image:
     ```bash
-    docker build -t kirana-backend .
+    docker build -t backend-intern-assignment .
     ```
 2. Run the container:
     ```bash
-    docker run -p 8080:8080 kirana-backend
+    docker run -p 8080:8080 backend-intern-assignment
     ```
 3. Access the APIs at `http://localhost:8080`.
 
@@ -191,10 +191,6 @@ backend-intern-assignment/
 2. Run tests for a specific component:
     ```bash
     go test ./api -v
-    ```
-3. Check test coverage:
-    ```bash
-    go test ./... -cover
     ```
 
 ---
