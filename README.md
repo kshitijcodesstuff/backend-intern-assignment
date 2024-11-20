@@ -2,7 +2,7 @@
 # Kirana Backend Assignment
 
 ## **GitHub Repository**
-[GitHub Repository Link](https://github.com/your-repo/backend-intern-assignment)
+[GitHub Repository Link](https://github.com/kshitijcodesstuff/backend-intern-assignment)
 
 ---
 
