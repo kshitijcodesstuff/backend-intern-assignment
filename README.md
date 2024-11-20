@@ -13,28 +13,32 @@ This project is a backend system developed as part of an assignment for **Kirana
 
 ## **Project Structure**
 
+The project is organized into a well-structured directory hierarchy to separate concerns, making it easy to understand, maintain, and extend.
+
+```plaintext
 backend-intern-assignment/
-├── main.go                      # Entry point for the application
-├── StoreMaster.csv              # CSV file containing store data
-├── api/
-│   ├── job_handler.go           # API handlers for job submission and job status retrieval
-│   ├── job_handler_test.go      # Unit tests for API handlers
-├── worker/
-│   ├── job_processor.go         # Background job processing logic
-│   ├── job_processor_test.go    # Unit tests for job processing
-├── utils/
-│   ├── utils.go                 # Utility functions for image processing
-│   ├── utils_test.go            # Unit tests for utilities
-├── models/
-│   ├── job.go                   # Models and logic for job management
-│   ├── job_test.go              # Unit tests for job models
-│   ├── store_master.go          # Logic for loading and validating store data
-│   ├── store_master_test.go     # Unit tests for store master logic
-├── db/
-│   ├── database.go              # Database initialization (in-memory)
-├── go.mod                       # Go module file for dependencies
-├── go.sum                       # Dependency checksums
-├── Dockerfile                   # Docker configuration
+├── main.go                      # Entry point of the application.
+├── StoreMaster.csv              # CSV file containing store data with Store IDs and names.
+├── api/                         # API layer for managing HTTP endpoints.
+│   ├── job_handler.go           # Handles API requests for job submission and status retrieval.
+│   ├── job_handler_test.go      # Unit tests for the job handler functions.
+├── worker/                      # Worker layer for background job processing.
+│   ├── job_processor.go         # Processes jobs asynchronously (image downloading, validation, etc.).
+│   ├── job_processor_test.go    # Unit tests for the job processing logic.
+├── utils/                       # Utility layer for reusable functions.
+│   ├── utils.go                 # Provides functions like image perimeter calculation.
+│   ├── utils_test.go            # Unit tests for utility functions.
+├── models/                      # Models layer for managing data structures and logic.
+│   ├── job.go                   # Models and logic for job management, including status updates.
+│   ├── job_test.go              # Unit tests for job-related logic.
+│   ├── store_master.go          # Logic for loading and validating store data from StoreMaster.csv.
+│   ├── store_master_test.go     # Unit tests for store master functionality.
+├── db/                          # Database-related setup and configuration.
+│   ├── database.go              # Initializes in-memory storage for jobs and other data.
+├── go.mod                       # Go module file listing dependencies for the project.
+├── go.sum                       # Checksums for verifying module integrity.
+├── Dockerfile                   # Dockerfile for containerizing the application.
+```
 
 
 ---
