@@ -1,4 +1,4 @@
-```markdown
+
 # Kirana Backend Assignment
 
 ## **GitHub Repository**
@@ -35,7 +35,7 @@ backend-intern-assignment/
 ├── go.mod                       # Go module file for dependencies
 ├── go.sum                       # Dependency checksums
 ├── Dockerfile                   # Docker configuration
-```
+
 
 ---
 
