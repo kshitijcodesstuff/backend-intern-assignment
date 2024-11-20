@@ -90,6 +90,13 @@ backend-intern-assignment/
           "job_id": 1
       }
       ```
+    - **Job Ongoing**:
+      ```json
+      {
+          "status": "ongoing",
+          "job_id": 1
+      }
+      ```
     - **Job Failed**:
       ```json
       {
